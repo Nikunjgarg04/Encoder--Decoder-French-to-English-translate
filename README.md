@@ -1,3 +1,5 @@
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![NLTK](https://img.shields.io/badge/Library-NLTK-orange.svg)
 # Encoder--Decoder-French-to-English-translate
 The Encoder-Decoder model is mainly a concept in the NLP field. It does not specifically value a specific algorithm, but a general term for a class of algorithms. Encoder-Decoder can be regarded as a general framework, under which different algorithms can be used to solve different tasks. Translation is one of the application of Encoder and Decoder
+![en](https://user-images.githubusercontent.com/55531967/128462690-7aec7ab1-be12-49ae-b628-dddc913af449.png)
+One of the most significant features of the Encoder-Decoder framework is that it is an End-to-End learning algorithm. Such models are often used in machine translation, such as translating French to English . Such a model is also called Sequence to Sequence learning. The so-called encoding is to convert the input sequence into a fixed-length vector and decoding is to convert the previously generated fixed vector into an output sequence.
